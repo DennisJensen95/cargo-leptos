@@ -33,9 +33,9 @@ cargo_metadata = { version = "0.19.2", features = ["builder"] }
 serde_json = "1.0"
 wasm-bindgen-cli-support = "0.2.100"
 reqwest = { version = "0.12.15", features = [
-  "blocking",
-  "rustls-tls",
-  "json",
+    "blocking",
+    "rustls-tls",
+    "json",
 ], default-features = false }
 seahash = "4.1"
 dirs = "6.0"
@@ -56,7 +56,7 @@ base64ct = { version = "1.7.3", features = ["alloc"] }
 swc = "23.0"
 swc_common = "9.0"
 shlex = "1.3"
-cargo-generate = { version = "0.23.3", features = ["vendored-openssl"] }
+cargo-generate = { version = "0.23.3", default-features = false }
 wasm-opt = "0.116.1"
 ignore = "0.4.23"
 walkdir = "2.5"
